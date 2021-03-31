@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 1300px;
+	height: 1000px;
+}
+
+.header{
+	width: 1280px;
+	height: 100px;	
+	margin: 10px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	margin-bottom: 0px;
+}
+
+.logo{
+	border: 1px solid black;
+	width: 318px;
+	height: 98px;
+	float: left;
+}
+
+.banner{
+	border: 1px solid black;
+	width: 958px;
+	height: 98px;
+	float: right;
+}
+
+.container{
+	width: 1280px;
+	height: 550px;
+	margin: 10px 10px;
+	margin-top: 0px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.slide{
+	width: 1278px;
+	height: 148px;
+	border:1px solid black;
+	line-height: 148px;
+}
+
+.new1{
+	width: 638px;
+	height: 398px;
+	float: left;
+	border: 1px solid black;
+	line-height: 398px;
+}
+
+.new2{
+	width: 638px;
+	height: 398px;
+	float: right;
+	border: 1px solid black;
+	line-height: 398px;
+}
+
+.footer{
+	width: 1280px;
+	height: 200px;
+	margin: 10px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.footer1{
+	width: 1278px;
+	height: 98px;
+	border: 1px solid black;
+	line-height: 98px;
+}
+
+.footer2{
+	width: 1278px;
+	height: 98px;
+	border: 1px solid black;
+	line-height: 98px;
+}
+
+@media screen and (max-width: 1280px){
+	.logo, .banner{
+		width: 100%
+	}
+
+	.footer1, .footer2{
+		width: 50%
+	}
+}

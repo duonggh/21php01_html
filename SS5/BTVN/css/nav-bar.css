@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+.nav_bar ul {
+	list-style-type: none;
+	background-color: #1f568B;
+	text-align:center;
+	/*overflow: hidden;*/
+}
+
+.nav_bar ul li{
+	color: white;
+	display: inline-table;
+	/*float: left;*/
+	width: 175px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid white;
+}
+
+.nav_bar ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.nav_bar ul li a:hover{
+	background: white;
+	color: #333;
+}

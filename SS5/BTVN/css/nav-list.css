@@ -1,0 +1,45 @@
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		
+		.wrapper{
+			border: 2px solid black;
+			box-shadow: 5px 5px 5px ;
+			width: 25%;
+			margin: 0 auto;
+			padding-bottom: 20px;
+		}
+
+		h2{
+			margin-left: 20px;
+			margin-bottom: 10px;
+		}
+		ul{
+			list-style-type: none;
+			margin-left: 20px;
+			
+		}
+
+		li{
+			width: 200px;
+			height: 35px;
+			line-height: 35px;
+			border: 2px solid blue;
+			margin-bottom: 5px;
+			margin-left: 10px;
+		}
+
+		a{
+			display: block;
+			text-decoration: none;
+			font-weight: bold;
+			text-align: center;
+			color: blue;
+		}
+
+		li:hover{
+			background-color: grey;
+		}
+	

@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+}
+.wrapper{
+  width:800px;
+  margin: 0 auto;
+}
+.menu ul{
+  list-style-type:none ;
+  width: auto;
+  text-align:center;
+}
+.menu ul li{
+  width:175px;
+  display:inline-table;
+  /*border-right: 1px solid white;*/
+  position:relative;
+}
+.menu ul li a{
+  color:white;
+  display:block;
+  background-color: blue;
+}
+.menu ul li a:hover{
+  background-color: red;
+}
+/* Tạo menu đổ xuống:*/
+.menu ul li > .sub-menu1{
+  display:none;
+  position:absolute;
+}
+.menu ul li:hover .sub-menu1{
+  display:block;
+}
+.menu ul li > .sub-menu2{
+  display:none;
+  position:absolute;
+}
+.menu ul li:hover .sub-menu2{
+  display:block;
+}
