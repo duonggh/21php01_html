@@ -1,0 +1,16 @@
+table{
+	border-collapse: collapse;
+}
+table,tr,th,td{
+	border: 1px solid black;
+	text-align: center;
+}
+.red{
+	color: red;
+}
+.r1, .r2, .r3{
+	color: blue;
+}
+ .r0,.r1,.sl,.tt,.vt,.dg{
+	background-color: yellow;
+}
