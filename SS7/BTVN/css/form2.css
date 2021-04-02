@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding: 0; 
+}
+body{
+	background-color: #F1ECEC;
+}
+.wrapper{
+	width: 600px;
+	height:670px;
+	margin: 20px auto;
+	font-family: sans-serif;
+	border: 1px solid grey;
+	font-weight: bold;
+	color: grey;
+	background-color: #FFFFFF;
+}
+.title{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+input,select,button{
+	width:350px;
+	height:30px;
+	border:1px solid grey;
+	margin-bottom: 20px;
+	margin-left: 127px;
+}
+label{
+	margin-left:125px;
+}
+.btnReg{
+	width:160px;
+	height:40px;
+	background-color:blue;
+	color:white;
+	border-radius:5px;
+}
+.btnLogin{
+	width:160px;
+	height:40px;
+	margin-left:27px;
+    border-radius:5px;
+}

@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: grey;
+}
+.wrapper{
+	background-color: white;
+	width: 620px;
+	height: auto;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+h1{
+	font-size: 16px;
+	text-align: center;
+	text-decoration: underline;
+	color: blue;
+}
+.border{
+	border: 2px dashed black;
+	width: 610px;
+	height: 1190px;
+	background-image:linear-gradient(#4dc7f8,pink);
+	margin: 0 auto;
+	color:white;
+	font-weight:bold;
+}
+input,textarea{
+	margin-bottom:20px;
+}
+.fname{
+	margin-left:80px;
+	margin-top:10px;
+}
+.lname{
+	margin-left:82px;
+}
+.email{
+	margin-left:100px;
+}
+.phone{
+	margin-left:46px;
+}
+.gdmale{
+	margin-left:103px
+}
+.dob{
+	margin-left:20px;
+}
+.add{
+	margin-left:96px;
+}
+.city{
+	margin-left:130px;
+}
+.pcode{
+	margin-left:92px;
+}
+.state{
+	margin-left:119px;
+}
+.country{
+	margin-left:97px;
+}
+.draw{
+	margin-left:94px;
+}
+.other{
+	margin-left:160px;
+}
+.hschool1{
+	margin-left: 58px;
+}
+.hschool2{
+	margin-left: 159px;
+}
+.gra{
+	margin-left: 159px;
+}
+.post_gra{
+	margin-left: 159px;
+}
+.phd{
+	margin-left: 159px;
+}
+.bca{
+	margin-left: 62px;
+}
+.bcom{
+	margin-left: 156px;
+}
+.bsc{
+	margin-left: 156px;
+}
+.ba{
+	margin-left: 156px;
+}
+.mca{
+	margin-left: 156px;
+}
+.mcom{
+	margin-left: 156px;
+}
+.msc{
+	margin-left: 156px;
+}
+.ma{
+	margin-left: 156px;
+}
+.btn1,.btn2{
+	width: 100px;
+	height: 30px;
+
+}
+.btn1{
+	margin-left: 200px;
+}
+.address{
+	position: relative;
+	top: -100px;
+}
+.course{
+	position: relative;
+	top: 130px;
+}
+.qualifi{
+	position: relative;
+	top: 20px;
+}
