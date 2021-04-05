@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="index">
+                <a href="#">Quản lý hàng hóa</a> /<a class="here" href="#">  Thêm mới Hàng hóa</a>
+            </div>
+		</div>
+		<div class="ttcb">
+			<div class="hd_ttcb">
+				<p class="p_ttcb">Thông tin cơ bản</p>
+			</div>
+			<div class="bd_ttcb">
+				<p class="lsp">Loại sản phẩm
+					<select name="loai_sp" class="loai_sp">
+						<option value="Dịch cụ">&nbsp; &nbsp;Dịch vụ</option>
+					</select>
+				</p>
+				<p class="mdv">Mã dịch vụ(SKU)
+					<input type="text" name="ma_dv" class="ma_dv" placeholder="Mã hàng hóa tự động">
+				</p>
+				<p class="mv">Mã vạch
+					<input type="text" name="ma_vach" class="ma_vach" placeholder="Mã vạch sản phẩm">
+				</p>
+				<p class="tdv">Tên dịch vụ <span>(*)</span>
+					<input type="text" name="ten_dv" class="ten_dv">
+				</p>
+				<p class="ndv">Nhóm dịch vụ
+					<select required name="nhom_dv" class="nhom_dv">
+						<option value="" disabled selected hidden>&nbsp; &nbsp;Chọn hoặc nhập tên nhóm hàng hóa</option>
+					</select>
+				</p>
+				<p class="gb">Giá bán <span>(*)</span>
+					<input type="text" name="gia_ban" class="gia_ban">
+				</p>
+				<p class="seri_ime">Quản lý theo Serial/IMEI
+					<input type="checkbox" name="imei" class="imei">
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

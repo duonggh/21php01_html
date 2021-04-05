@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Intro Javascript</title>
+	
+	
+</head>
+<body>
+	<!-- Inline -->
+	<p onclick="alert('Test click')">Click me</p>
+	<div id="demo">Test click</div>
+	<div id="test_external" onclick="test_External();">Demo external</div>
+	<div id="change_content"> Đây là nội dung đầu tiên</div>
+	<a href="#"onmouseover="change_content();"onmouseleave="change_content_2();">Change content</a>
+	<img src="img/rnd1.jpg" alt="test_image" id="change_image" width="200"height="200">
+	<a href="#"onclick="chnageImage();">Change image</a>
+	<!-- Internal -->
+	<script type="text/javascript">
+		document.getElementById("demo").innerHTML = "Hello JavaScript";
+		document.getElementById("demo").style.color = "red";
+	</script>
+	<!-- External -->
+	<script type="text/javascript" src="js/intro.js"></script>
+</body>
+</html>
