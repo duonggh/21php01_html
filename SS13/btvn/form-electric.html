@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form-ElectricBill</title>
+	<link rel="stylesheet" href="css/form-ebill.css">
+</head>
+<body>
+	<div class="container">
+		<form name="" action="" method="">
+			<h3>Hóa Đơn Tiền Điện</h3>
+			<div class="form-group">
+				<label for="">Họ tên khách hàng</label>
+				<input type="text" name="" id="fullname" class="" value="" placeholder="Nhập họ tên KH...">
+				<span id="error-fullname" class="message"></span>
+			</div>
+			<div class="form-group">
+				<label for="">Số đầu kỳ</label>
+				<input type="text" name="" id="sodauky" class="" value="" placeholder="Nhập số đầu kỳ (kwh)...">
+				<span id="error-sodauky" class="message"></span>
+			</div>
+			<div class="form-group">
+				<label for="">Số cuối kỳ</label>
+				<input type="text" name="" id="socuoiky" class="" value="" placeholder="Nhập số cuối kỳ (kwh)...">
+				<span id="error-socuoiky" class="message"></span>
+			</div>
+			<div class="form-group">
+				<label for="">Giới tính</label>
+				<input type="radio" name="gender" id="male" class="" value="">Male
+				<input type="radio" name="gender" id="female" class="" value="">Female <br>
+				<span id="error-gender" class="message"></span>
+			</div>
+			<div class="form-group">
+				<label for="">Ngày sinh</label>
+				<input type="date" name="" id="dob" class="" value="">
+				<span id="error-dob" class="message"></span>
+			</div>
+			<div class="form-group">
+				<label for="">Ngày đầu kỳ</label>
+				<input type="date" name="" id="ngaydauky" class="" value="">
+				<span id="error-ngaydauky" class="message"></span>
+			</div>
+			<div class="form-group">
+				<label for="">Ngày cuối kỳ</label>
+				<input type="date" name="" id="ngaycuoiky" class="" value="">
+				<span id="error-ngaycuoiky" class="message"></span>
+			</div>
+			<button name="" class="" id="btn" onclick="checkContent(); return false; checkNumberAndDate();">Tính tiền</button>
+		</form>
+	</div>
+	<script src="js/form-ebill.js"></script>
+</body>
+</html>
